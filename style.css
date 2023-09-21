@@ -1,0 +1,40 @@
+body{
+    font-family: cursive;
+    background-image: url('b.jpg');
+    background-size: cover;
+}
+
+#container{
+    height: 350px;
+    width: 600px;
+    border-radius: 25px;
+    background-color: azure;
+    /* background-image: url('a.jpg'); */
+    background-size: cover;
+    text-align: center;
+    margin: 200px 100px;
+}
+#clock{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Technology";   
+}
+
+input[type="time"]{
+    font-size: 1.2em;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 150px;
+    margin-top: 20px;
+}
+
+#status_msg{
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
